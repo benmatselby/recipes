@@ -30,8 +30,6 @@ export default function Home({ data }) {
               <Link href={`/recipes/${id}`}>
                 <a>{title}</a>
               </Link>
-              <br />
-              <small>{date}</small>
             </li>
           ))}
         </ul>
