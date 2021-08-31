@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import { getAllRecipeIds, getRecipeData } from "../../lib/recipes";
 
 export async function getStaticProps({ params }) {
@@ -20,15 +21,17 @@ export async function getStaticPaths() {
 
 export default function Recipe({ data }) {
   return (
-    <>
+    <div className="container">
       <Head>
         <title>{data.title}</title>
       </Head>
       <article>
         <h1>{data.title}</h1>
-        <div>{data.date}</div>
         <div dangerouslySetInnerHTML={{ __html: data.contentHtml }} />
       </article>
-    </>
+      <footer>
+        <Link href="/">&#8592; Home</Link>
+      </footer>
+    </div>
   );
 }

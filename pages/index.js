@@ -14,15 +14,15 @@ export async function getStaticProps() {
 
 export default function Home({ data }) {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <title>Recipes &middot; Ben Selby</title>
         <meta name="description" content="Family recipes" />
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>Family recipes</h1>
+      <main>
+        <h1>Family recipes</h1>
 
         <ul>
           {data.map(({ id, date, title }) => (
