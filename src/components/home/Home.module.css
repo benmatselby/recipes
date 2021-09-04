@@ -1,4 +1,8 @@
 .recipes {
+  text-align: center;
+}
+
+.recipeList {
   list-style: none;
   padding: 0;
   margin: 0;
