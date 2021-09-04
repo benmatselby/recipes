@@ -1,5 +1,5 @@
 ---
-title: "Jool's Curry"
+title: "Jool's curry"
 date: "2021-08-31"
 ---
 
