@@ -1,26 +1,119 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html,
 body {
-  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-    Helvetica Neue, sans-serif;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 20;
+  font-weight: 200;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --clr-white: #fff;
+
+  --clr-highlight: #80bdff;
+  --clr-highlight-alpha: #80bdff;
+
+  --clr-background: #f9f9f9;
+
+  --clr-text: #515151;
+  --clr-text-secondary: #515151;
+  --clr-text-heading: #515151;
+
+  --clr-link: #c0362c;
+
+  --clr-border: #e5e5e5;
+  --clr-blockquote: rgba(0, 0, 0, 0.68);
+  --clr-blockquote-border: #e5e5e5;
+
+  --clr-code-bg: #eaebec;
+  --clr-code: #212632;
+
+  --clr-header-border: #515151;
+
+  --clr-footer-background: #2c3343;
+  --clr-footer-text: #f9f9f9;
+
+  --clr-button-background: #f9f9f9;
+  --clr-button-background-hover: #212632;
+  --clr-button-border: #212632;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-white: #fff;
+
+    --clr-highlight: #80bdff;
+    --clr-highlight-alpha: #80bdff;
+
+    --clr-background: #2c3343;
+
+    --clr-text: #e5e5e5;
+    --clr-text-secondary: #b7b7b7;
+    --clr-text-heading: #e5e5e5;
+
+    --clr-link: #d3726b;
+
+    --clr-border: #e5e5e5;
+    --clr-blockquote: #91c6ff;
+    --clr-blockquote-border: #e5e5e5;
+
+    --clr-code-bg: #1a1f28;
+    --clr-code: #d3726b;
+
+    --clr-header-border: #515151;
+
+    --clr-footer-background: #212632;
+    --clr-footer-text: #f9f9f9;
+
+    --clr-button-background: #2c3343;
+    --clr-button-background-hover: #212632;
+    --clr-button-border: #212632;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: var(--clr-background);
+  color: var(--clr-text);
 }
 
 a {
-  color: inherit;
+  color: var(--clr-link);
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  border-color: var(--clr-highlight);
+  border-radius: 2px;
+  box-shadow: var(--clr-highlight-alpha) 0 0 0 0.1875rem;
+  outline: 0;
+  text-decoration: underline;
 }
 
 h1 {
   padding: 0;
-  margin: 0;
-}
-
-.container {
-  padding: 1rem;
   margin: 0;
 }

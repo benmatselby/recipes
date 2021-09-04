@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { getAllRecipeIds, getRecipeData } from "../../lib/recipes";
+import { getAllRecipeIds, getRecipeData } from "../../src/lib/recipes";
 
 export async function getStaticProps({ params }) {
   const data = await getRecipeData(params.id);
