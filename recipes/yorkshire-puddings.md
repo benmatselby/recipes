@@ -1,6 +1,7 @@
 ---
 title: "Yorkshire puddings"
 date: "2021-08-31"
+type: ["vegetarian"]
 ---
 
 This makes 6 large puddings.

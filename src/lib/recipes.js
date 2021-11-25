@@ -6,7 +6,10 @@ import html from "remark-html";
 
 const contentDirectory = path.join(process.cwd(), "recipes");
 
-export function getSortedRecipeData() {
+/**
+ * Get all the recipes, and sort then ready for display
+ */
+export function getSortedRecipeData(type) {
   // Get file names under /recipes
   const fileNames = fs.readdirSync(contentDirectory);
 
@@ -21,15 +24,22 @@ export function getSortedRecipeData() {
     // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents);
 
-    // Combine the data with the id
     return {
       id,
       ...matterResult.data,
     };
   });
 
-  // Sort recipes by the title
-  return allData.sort((a, b) => {
+  const recipes = allData.filter((item) => {
+    if (type === undefined || (type !== undefined && item.type !== undefined && item.type.includes(type))) {
+      return item;
+    }
+  });
+
+  console.log(allData);
+  console.log(recipes);
+
+  return recipes.sort((a, b) => {
     if (a.title > b.title) {
       return 1;
     }
@@ -37,6 +47,9 @@ export function getSortedRecipeData() {
   });
 }
 
+/**
+ * Get all the ids for the recipes we have.
+ */
 export function getAllRecipeIds() {
   const fileNames = fs.readdirSync(contentDirectory);
 
@@ -62,6 +75,9 @@ export function getAllRecipeIds() {
   });
 }
 
+/**
+ * Get the specific recipe data.
+ */
 export async function getRecipeData(id) {
   const fullPath = path.join(contentDirectory, `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");

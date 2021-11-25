@@ -1,6 +1,7 @@
 ---
 title: "Prawn spaghetti"
 date: "2021-08-31"
+type: ["vegetarian"]
 ---
 
 ## Ingredients

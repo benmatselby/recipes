@@ -2,24 +2,16 @@ import Link from "next/link";
 import Layout from "../layout/Layout";
 import styles from "./Home.module.css";
 
-/**
- * Render the home page.
- *
- * @param data is the getStaticProps content which provides the list of recipes.
- */
-export default function Home({ data }) {
+export default function Home() {
   return (
     <Layout title="Family recipes">
-      <div className={styles.recipes}>
-        <ul className={styles.recipeList}>
-          {data.map(({ id, date, title }) => (
-            <li key={id}>
-              <Link href={`/recipes/${id}`}>
-                <a>{title}</a>
-              </Link>
-            </li>
-          ))}
-        </ul>
+      <div className={styles.home}>
+        <Link href={`/vegetarian`}>
+          <a className={styles.button}>Vegetarian</a>
+        </Link>
+        <Link href={`/meat`}>
+          <a className={styles.button}>Meat</a>
+        </Link>
       </div>
     </Layout>
   );

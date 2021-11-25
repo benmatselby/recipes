@@ -1,6 +1,7 @@
 ---
 title: "Toad in the hole"
 date: "2021-08-31"
+type: ["meat"]
 ---
 
 ## Ingredients
