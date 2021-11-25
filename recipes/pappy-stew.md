@@ -1,5 +1,5 @@
 ---
-title: "Bacon pasta"
+title: "Pappy stew"
 date: "2021-11-25"
 type: ["vegetarian", "meat"]
 ---
