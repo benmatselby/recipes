@@ -2,6 +2,7 @@
 title: "Brownies - The gooey ones"
 date: "2021-09-05"
 type: ["dessert"]
+img: "/images/brownies.jpg"
 ---
 
 ## Ingredients
