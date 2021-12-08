@@ -2,6 +2,7 @@
 title: "Beef stoganoff"
 date: "2021-08-31"
 type: ["meat"]
+img: "/images/beef-stroganoff.jpg"
 ---
 
 ## Ingredients
