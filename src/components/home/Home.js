@@ -15,6 +15,9 @@ export default function Home() {
         <Link href={`/dessert`}>
           <a className={styles.button}>Dessert</a>
         </Link>
+        <Link href={`/drinks`}>
+          <a className={styles.button}>Drinks</a>
+        </Link>
       </div>
     </Layout>
   );
