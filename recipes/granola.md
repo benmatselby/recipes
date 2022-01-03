@@ -12,7 +12,7 @@ type: ["vegetarian"]
 - 1 orange
   - Zest
   - Juiced
-- 70g sunflower seeds
+- 70g chai seeds
 - 50g pumpkin seeds
 - 65g almonds, roughly chopped
 - 65g cashews, roughly chopped
