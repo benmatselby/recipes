@@ -14,7 +14,7 @@ type: ["meat"]
 - tin of kidney beans
 - some mushrooms (7 or 8)
 - 400ml tins of tomatoes (x2)
-  - Ideally one plum
+  - Ideally one tin of plum tomatoes
 - 500g mince
 - A good chunk of cheese to grate on top
 - Italian seasoning
