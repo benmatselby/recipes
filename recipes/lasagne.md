@@ -2,6 +2,7 @@
 title: "Lasagne"
 date: "2022-01-03"
 type: ["meat"]
+img: "/images/lasagne.jpg"
 ---
 
 ## Ingredients
