@@ -8,7 +8,7 @@ type: ["vegetarian"]
 
 - 2 parts cabbage
 - 2 parts carrot (peelings/shaved)
-- 1 part onion
+- 1 part red onion
 - 1 spoon full of dijon mustard
 - Mayonnaise
 - Paprika
