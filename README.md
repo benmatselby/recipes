@@ -4,7 +4,26 @@
 
 This started out all written down. However, you're in the supermarket and cannot remember the ingredients - nightmare. A website just makes more sense. It became a learning tool to implement something in [Next.js](https://nextjs.org).
 
-## To do
+This site uses the following tech:
 
-- Add prep time and cook time.
-- Add images to make the site look half decent.
+- Node.js 16+ (If you use `nvm` you can run `nvm use` to get the correct version).
+- [Next.js](https://nextjs.org)
+- [Prettier](https://prettier.io)
+- [ESLint](https://eslint.org)
+- [Husky](https://typicode.github.io/husky/)
+- [GitHub Actions](https://github.com/features/actions)
+- [Netlify](https://www.netlify.com)
+
+## Getting the site running
+
+To get the site running locally, clone the repo and install the dependencies.
+
+```shell
+npm install
+```
+
+Then you can run the dev server.
+
+```shell
+npm run dev
+```
