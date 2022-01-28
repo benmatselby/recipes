@@ -36,9 +36,6 @@ export function getSortedRecipeData(type) {
     }
   });
 
-  console.log(allData);
-  console.log(recipes);
-
   return recipes.sort((a, b) => {
     if (a.title > b.title) {
       return 1;
