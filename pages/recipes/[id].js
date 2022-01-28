@@ -5,8 +5,8 @@ export async function getStaticProps({ params }) {
   const data = await getRecipeData(params.id);
   return {
     props: {
-      data,
-    },
+      data
+    }
   };
 }
 
@@ -14,7 +14,7 @@ export async function getStaticPaths() {
   const paths = getAllRecipeIds();
   return {
     paths,
-    fallback: false,
+    fallback: false
   };
 }
 

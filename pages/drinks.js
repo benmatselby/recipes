@@ -10,8 +10,8 @@ export async function getStaticProps() {
   const data = getSortedRecipeData("drink");
   return {
     props: {
-      data,
-    },
+      data
+    }
   };
 }
 
