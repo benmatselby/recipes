@@ -6,8 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "fix": "concurrently npm:fix:*",
+    "fix:next": "next lint --fix",
     "fix:prettier": "prettier --write \"{pages,src}/**/*.{js,css}\"",
     "lint": "concurrently npm:lint:*",
+    "lint:next": "next lint",
     "lint:prettier": "prettier --check \"{pages,src}/**/*.{js,css}\"",
     "start": "next start",
     "prepare": "husky install"
@@ -22,6 +24,10 @@
   },
   "devDependencies": {
     "concurrently": "^7.0.0",
+    "eslint": "^8.7.0",
+    "eslint-config-next": "^12.0.9",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.0",
     "prettier": "2.5.1"
   }

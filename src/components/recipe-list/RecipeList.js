@@ -7,7 +7,7 @@ import styles from "./RecipeList.module.css";
 export default function RecipeList({ data }) {
   return (
     <ul className={styles.recipeList}>
-      {data.map(({ id, date, title }) => (
+      {data.map(({ id, title }) => (
         <li key={id}>
           <Link href={`/recipes/${id}`}>
             <a>{title}</a>
