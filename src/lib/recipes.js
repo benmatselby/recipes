@@ -26,12 +26,15 @@ export function getSortedRecipeData(type) {
 
     return {
       id,
-      ...matterResult.data,
+      ...matterResult.data
     };
   });
 
   const recipes = allData.filter((item) => {
-    if (type === undefined || (type !== undefined && item.type !== undefined && item.type.includes(type))) {
+    if (
+      type === undefined ||
+      (type !== undefined && item.type !== undefined && item.type.includes(type))
+    ) {
       return item;
     }
   });
@@ -66,8 +69,8 @@ export function getAllRecipeIds() {
   return fileNames.map((fileName) => {
     return {
       params: {
-        id: fileName.replace(/\.md$/, ""),
-      },
+        id: fileName.replace(/\.md$/, "")
+      }
     };
   });
 }
@@ -90,6 +93,6 @@ export async function getRecipeData(id) {
   return {
     id,
     contentHtml,
-    ...matterResult.data,
+    ...matterResult.data
   };
 }

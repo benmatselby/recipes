@@ -10,8 +10,8 @@ export async function getStaticProps() {
   const data = getSortedRecipeData("vegetarian");
   return {
     props: {
-      data,
-    },
+      data
+    }
   };
 }
 
