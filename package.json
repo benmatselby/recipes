@@ -12,7 +12,8 @@
     "lint:next": "next lint",
     "lint:prettier": "prettier --check \"{pages,src}/**/*.{js,css}\"",
     "start": "next start",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "jest --coverage"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
@@ -23,12 +24,14 @@
     "remark-html": "^15.0.0"
   },
   "devDependencies": {
+    "@testing-library/react": "^12.1.2",
     "concurrently": "^7.0.0",
     "eslint": "^8.7.0",
     "eslint-config-next": "^12.0.9",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.0",
+    "jest": "^27.4.7",
     "prettier": "2.5.1"
   }
 }
