@@ -1,7 +1,7 @@
 ---
 title: "Coleslaw"
 date: "2022-01-04"
-type: ["vegetarian"]
+type: "vegetarian"
 ---
 
 ## Ingredients

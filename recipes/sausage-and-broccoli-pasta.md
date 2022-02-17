@@ -1,7 +1,7 @@
 ---
 title: "Sausage and broccoli pasta"
 date: "2021-12-08"
-type: ["meat"]
+type: "meat"
 img: "/images/sausage-pasta.jpg"
 ---
 

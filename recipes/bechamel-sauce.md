@@ -1,7 +1,7 @@
 ---
 title: "Bechamel sauce"
 date: "2022-01-03"
-type: ["vegetarian"]
+type: "vegetarian"
 ---
 
 ## Ingredients

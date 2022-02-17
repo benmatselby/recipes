@@ -15,7 +15,7 @@ export default function Home() {
         <Link href={`/dessert`}>
           <a className={styles.button}>Dessert</a>
         </Link>
-        <Link href={`/drinks`}>
+        <Link href={`/drink`}>
           <a className={styles.button}>Drinks</a>
         </Link>
       </div>

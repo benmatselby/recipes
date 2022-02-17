@@ -1,7 +1,7 @@
 ---
 title: "Pancakes"
 date: "2021-08-31"
-type: ["vegetarian"]
+type: "vegetarian"
 ---
 
 ## Ingredients

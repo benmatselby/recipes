@@ -1,7 +1,7 @@
 ---
 title: "Baked chocolate cheesecake"
 date: "2021-08-31"
-type: ["dessert"]
+type: "dessert"
 ---
 
 ## Ingredients

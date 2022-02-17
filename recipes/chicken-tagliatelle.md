@@ -1,7 +1,7 @@
 ---
 title: "Chicken tagliatelle"
 date: "2021-10-21"
-type: ["meat"]
+type: "meat"
 ---
 
 ## Ingredients
