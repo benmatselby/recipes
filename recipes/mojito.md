@@ -1,7 +1,7 @@
 ---
 title: "Mojito"
 date: "2021-12-23"
-type: ["drink"]
+type: "drink"
 ---
 
 ## Ingredients

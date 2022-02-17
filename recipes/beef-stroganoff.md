@@ -1,7 +1,7 @@
 ---
 title: "Beef stroganoff"
 date: "2021-08-31"
-type: ["meat"]
+type: "meat"
 img: "/images/beef-stroganoff.jpg"
 ---
 

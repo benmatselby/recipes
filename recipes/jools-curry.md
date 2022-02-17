@@ -1,7 +1,7 @@
 ---
 title: "Jool's curry"
 date: "2021-08-31"
-type: ["meat"]
+type: "meat"
 ---
 
 ## Ingredients

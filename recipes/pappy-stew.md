@@ -1,7 +1,7 @@
 ---
 title: "Pappy stew"
 date: "2021-11-25"
-type: ["vegetarian", "meat"]
+type: "vegetarian"
 ---
 
 This is a Paprika Stew. You can make it vegetarian or meaty. If you want to make it meaty, then just add whatever meat you want.
