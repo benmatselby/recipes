@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../footer/Footer";
 import styles from "./Layout.module.css";
 
 /**
@@ -8,7 +9,7 @@ import styles from "./Layout.module.css";
  */
 export default function Layout({ children, title }) {
   return (
-    <div>
+    <div className={styles.container}>
       <Head>
         <title>{title} &middot; Ben Selby</title>
         <meta name="description" content="Family recipes" />
@@ -18,6 +19,7 @@ export default function Layout({ children, title }) {
         <h1 className={styles.title}>{title}</h1>
       </div>
       <div className={styles.content}>{children}</div>
+      <Footer />
     </div>
   );
 }
