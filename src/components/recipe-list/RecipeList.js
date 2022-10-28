@@ -9,9 +9,7 @@ export default function RecipeList({ data }) {
     <ul className={styles.recipeList}>
       {data.map(({ id, title }) => (
         <li key={id}>
-          <Link href={`/recipes/${id}`}>
-            <a>{title}</a>
-          </Link>
+          <Link href={`/recipes/${id}`}>{title}</Link>
         </li>
       ))}
     </ul>

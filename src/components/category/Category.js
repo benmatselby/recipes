@@ -14,7 +14,7 @@ export default function Category({ title, data }) {
       <div className={styles.recipes}>
         <RecipeList data={data} />
         <div className={styles.homeLink}>
-          <Link href="/">&#8592; Home</Link>
+          &#8592; <Link href="/">Home</Link>
         </div>
       </div>
     </Layout>

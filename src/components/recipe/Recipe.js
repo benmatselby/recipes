@@ -24,7 +24,7 @@ export default function Recipe({ data }) {
         <div dangerouslySetInnerHTML={{ __html: data.contentHtml }} />
       </article>
       <footer>
-        <Link href={`/${data.type || ""}`}>&#8592; Back</Link>
+        &#8592; <Link href={`/${data.type || ""}`}>Back</Link>
       </footer>
     </Layout>
   );

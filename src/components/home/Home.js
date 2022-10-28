@@ -6,17 +6,17 @@ export default function Home() {
   return (
     <Layout title="Family recipes">
       <div className={styles.home}>
-        <Link href={`/vegetarian`}>
-          <a className={styles.button}>Vegetarian</a>
+        <Link href={`/vegetarian`} className={styles.button}>
+          Vegetarian
         </Link>
-        <Link href={`/meat`}>
-          <a className={styles.button}>Meat</a>
+        <Link href={`/meat`} className={styles.button}>
+          Meat
         </Link>
-        <Link href={`/dessert`}>
-          <a className={styles.button}>Dessert</a>
+        <Link href={`/dessert`} className={styles.button}>
+          Dessert
         </Link>
-        <Link href={`/drink`}>
-          <a className={styles.button}>Drinks</a>
+        <Link href={`/drink`} className={styles.button}>
+          Drinks
         </Link>
       </div>
     </Layout>
