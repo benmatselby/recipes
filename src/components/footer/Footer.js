@@ -17,6 +17,9 @@ export default function Footer() {
               <a href="https://benmatselby.dev/post/">Blog</a>
             </li>
             <li>
+              <a href="https://benmatselby.dev/pictures/">Pictures</a>
+            </li>
+            <li>
               <a href="https://recipes.benmatselby.dev/">Recipes</a>
             </li>
             <li>
